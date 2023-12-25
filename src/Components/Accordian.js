@@ -11,7 +11,7 @@ const Accordian = () => {
       content: "This is content of Item 2",
     },
     {
-      title: "Item 2",
+      title: "Item 3",
       content: "This is content of Item 3",
     },
   ];
