@@ -1,13 +1,18 @@
 import "./App.css";
-import Accordion from "./Components/Accordian";
-import Counter from "./Components/Counter";
+import Carousel from "./Components/Carousel/Carousel";
+// import Accordion from "./Components/Accordian";
+
+// import Counter from "./Components/Counter";
+// import FetchApi from "./Components/FetchApi";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <Accordion />
+        {/* <Accordion />
         <Counter />
+        <FetchApi /> */}
+        <Carousel />
       </div>
     </div>
   );

@@ -1,0 +1,28 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+}
+
+.nav-button {
+  position: absolute;
+  top: 45%;
+  background-color: rgb(126, 122, 122);
+  color: white;
+  border: none;
+  transform: translateY(-50%);
+  width: 4em;
+  height: 4em;
+}
+.nav-button:first-child {
+  left: 10px;
+}
+.nav-button:last-child {
+  right: 10px;
+}
