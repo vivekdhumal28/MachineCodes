@@ -11,7 +11,6 @@ const Counter = () => {
       setCount((count) => count - 1); // callback give you last updated state
     }
   };
-
   const reset = () => {
     setCount(0);
   };
