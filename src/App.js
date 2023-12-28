@@ -4,6 +4,7 @@ import Accordion from "./Components/Accordian";
 import Counter from "./Components/Counter";
 import FetchApi from "./Components/FetchApi";
 import CapsLockOnOff from "./Components/CapsLockOnOff";
+import ParentComponent from "./Components/ChildToParent";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <CapsLockOnOff />
         <FetchApi />
         <Carousel />
+        <ParentComponent />
       </div>
     </div>
   );
