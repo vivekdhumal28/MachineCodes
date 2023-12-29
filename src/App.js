@@ -5,6 +5,7 @@ import Counter from "./Components/Counter";
 import FetchApi from "./Components/FetchApi";
 import CapsLockOnOff from "./Components/CapsLockOnOff";
 import ParentComponent from "./Components/ChildToParent";
+import StarRating from "./Components/StarRating";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <CapsLockOnOff />
         <FetchApi />
         <Carousel />
+        <StarRating />
         <ParentComponent />
       </div>
     </div>
