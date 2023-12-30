@@ -6,12 +6,14 @@ import FetchApi from "./Components/FetchApi";
 import CapsLockOnOff from "./Components/CapsLockOnOff";
 import ParentComponent from "./Components/ChildToParent";
 import StarRating from "./Components/StarRating";
+import ProgressBar from "./Components/ProgressBar/ProgressBar";
 
 function App() {
   return (
     <div className="App">
       <div>
         <Accordion />
+        <ProgressBar />
         <Counter />
         <CapsLockOnOff />
         <FetchApi />
