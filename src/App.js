@@ -7,6 +7,7 @@ import CapsLockOnOff from "./Components/CapsLockOnOff";
 import ParentComponent from "./Components/ChildToParent";
 import StarRating from "./Components/StarRating";
 import ProgressBar from "./Components/ProgressBar/ProgressBar";
+import TicTacToe from "./Components/TicTacToe/TicTacToe";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <ProgressBar />
         <Counter />
         <CapsLockOnOff />
+        <TicTacToe />
         <FetchApi />
         <Carousel />
         <StarRating />
