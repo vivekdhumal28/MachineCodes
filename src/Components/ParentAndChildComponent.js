@@ -14,10 +14,61 @@
  *
  *
  */
-import React from "react";
+import React, { useState } from "react";
 
 const ParentAndChildComponent = () => {
-  return <div>ParentAndChildComponent</div>;
+  const [bookName, setBookName] = useState("");
+  const [bookList, setBookList] = useState([]);
+
+  const handleInputChange = (e) => {
+    setBookName(e.target.value);
+  };
+
+  const handleButtonClick = () => {
+    if (bookName) {
+      setBookList([...bookList, bookName]);
+      setBookName("");
+    }
+  };
+  return (
+    <div>
+      <h1>My Book Store</h1>
+      <div>
+        <input
+          type="text"
+          placeholder="Enter your text here"
+          value={bookName}
+          onChange={handleInputChange}
+        />
+        <button onClick={handleButtonClick}>Update</button>
+      </div>
+      <ChildComponent bookList={bookList} />
+    </div>
+  );
 };
+
+function ChildComponent({ bookList }) {
+  return (
+    <div>
+      <h2>Book List</h2>
+      <table className="App">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          {bookList.map((book, index) => (
+            <tr key={index}>
+              <td>{index + 1}</td>
+              <td>{book}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
 
 export default ParentAndChildComponent;

@@ -9,11 +9,13 @@ import StarRating from "./Components/StarRating";
 import ProgressBar from "./Components/ProgressBar/ProgressBar";
 import TicTacToe from "./Components/TicTacToe/TicTacToe";
 import CounterWithRedux from "./Components/CounterWithReduxToolkit";
+import ParentAndChildComponent from "./Components/ParentAndChildComponent";
 
 function App() {
   return (
     <div className="App">
       <div>
+        <ParentAndChildComponent />
         <Accordion />
         <CounterWithRedux />
         <ProgressBar />
