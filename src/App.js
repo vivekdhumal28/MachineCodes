@@ -10,11 +10,14 @@ import ProgressBar from "./Components/ProgressBar/ProgressBar";
 import TicTacToe from "./Components/TicTacToe/TicTacToe";
 import CounterWithRedux from "./Components/CounterWithReduxToolkit";
 import ParentAndChildComponent from "./Components/ParentAndChildComponent";
+import Infinite from "./Components/InfiniteScroll/Infinite";
+import ModalContainer from "./Components/ModalContainer/ModalContainer";
 
 function App() {
   return (
     <div className="App">
       <div>
+        <ModalContainer />
         <ParentAndChildComponent />
         <Accordion />
         <CounterWithRedux />
@@ -26,6 +29,7 @@ function App() {
         <Carousel />
         <StarRating />
         <ParentComponent />
+        <Infinite />
       </div>
     </div>
   );
