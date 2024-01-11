@@ -12,11 +12,15 @@ import CounterWithRedux from "./Components/CounterWithReduxToolkit";
 import ParentAndChildComponent from "./Components/ParentAndChildComponent";
 import Infinite from "./Components/InfiniteScroll/Infinite";
 import ModalContainer from "./Components/ModalContainer/ModalContainer";
+import Tooltip from "./Components/Tooltip/Tooltip";
 
 function App() {
   return (
     <div className="App">
       <div>
+        <Tooltip content="Hover Me">
+          <button>Hover Me</button>
+        </Tooltip>
         <ModalContainer />
         <ParentAndChildComponent />
         <Accordion />
