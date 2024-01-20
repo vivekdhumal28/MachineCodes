@@ -13,6 +13,7 @@ import ParentAndChildComponent from "./Components/ParentAndChildComponent";
 import Infinite from "./Components/InfiniteScroll/Infinite";
 import ModalContainer from "./Components/ModalContainer/ModalContainer";
 import Tooltip from "./Components/Tooltip/Tooltip";
+import TTT from "./Components/TTT";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Carousel />
         <StarRating />
         <ParentComponent />
+        <TTT />
         <Infinite />
       </div>
     </div>
