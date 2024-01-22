@@ -14,6 +14,7 @@ import Infinite from "./Components/InfiniteScroll/Infinite";
 import ModalContainer from "./Components/ModalContainer/ModalContainer";
 import Tooltip from "./Components/Tooltip/Tooltip";
 import TTT from "./Components/TTT";
+import ApiFech from "./Components/ApiFech";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Tooltip content="Hover Me">
           <button>Hover Me</button>
         </Tooltip>
+        <ApiFech />
         <ModalContainer />
         <ParentAndChildComponent />
         <Accordion />

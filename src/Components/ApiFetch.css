@@ -1,0 +1,25 @@
+.carousel-container1 {
+  position: relative;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.carousel-image1 {
+  width: 100%;
+  height: auto;
+}
+
+.nav-button1 {
+  position: absolute;
+  top: 50%;
+  background-color: #ddd;
+  color: black;
+  font-size: large;
+  border: none;
+}
+.nav-button1:first-child {
+  left: 10px;
+}
+.nav-button1:last-child {
+  right: 10px;
+}
