@@ -15,6 +15,8 @@ import ModalContainer from "./Components/ModalContainer/ModalContainer";
 import Tooltip from "./Components/Tooltip/Tooltip";
 import TTT from "./Components/TTT";
 import ApiFech from "./Components/ApiFech";
+import StarRate1 from "./Components/StarRate1";
+import Accordian2 from "./Components/Accordian2";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Tooltip content="Hover Me">
           <button>Hover Me</button>
         </Tooltip>
+        <Accordian2></Accordian2>
+        <StarRate1 />
         <ApiFech />
         <ModalContainer />
         <ParentAndChildComponent />
