@@ -17,6 +17,7 @@ import TTT from "./Components/TTT";
 import ApiFech from "./Components/ApiFech";
 import StarRate1 from "./Components/StarRate1";
 import Accordian2 from "./Components/Accordian2";
+import TabMain from "./Components/Tabs/TabMain";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Tooltip content="Hover Me">
           <button>Hover Me</button>
         </Tooltip>
+        <TabMain />
         <Accordian2></Accordian2>
         <StarRate1 />
         <ApiFech />
