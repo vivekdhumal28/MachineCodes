@@ -18,14 +18,18 @@ import ApiFech from "./Components/ApiFech";
 import StarRate1 from "./Components/StarRate1";
 import Accordian2 from "./Components/Accordian2";
 import TabMain from "./Components/Tabs/TabMain";
+import Stopwatch from "./Components/StopWatch/Stopwatch";
 
 function App() {
   return (
     <div className="App">
       <div>
+        <Stopwatch />
+        <hr></hr>
         <Tooltip content="Hover Me">
           <button>Hover Me</button>
         </Tooltip>
+
         <TabMain />
         <Accordian2></Accordian2>
         <StarRate1 />
