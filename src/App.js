@@ -19,11 +19,13 @@ import StarRate1 from "./Components/StarRate1";
 import Accordian2 from "./Components/Accordian2";
 import TabMain from "./Components/Tabs/TabMain";
 import Stopwatch from "./Components/StopWatch/Stopwatch";
+import DynamicForms from "./Components/DynamicForms";
 
 function App() {
   return (
     <div className="App">
       <div>
+        <DynamicForms />
         <Stopwatch />
         <hr></hr>
         <Tooltip content="Hover Me">
